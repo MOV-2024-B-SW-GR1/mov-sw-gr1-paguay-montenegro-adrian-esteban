@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título del concesionario -->
+    <TextView
+        android:id="@+id/tvconcesionarioTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título del concesionario"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para agregar autos -->
+    <Button
+        android:id="@+id/btnAgregarauto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregar auto" />
+
+    <!-- Lista de autos -->
+    <ListView
+        android:id="@+id/listViewautos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
