@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvFormularioTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Formulario de Autos"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etTituloObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo del auto"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etAnioCreacionObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año del modelo"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etTipoObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estado del auto"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etPrecioEstimadoObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio estimado (dolares)"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/switchDisponible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="¿El auto está reservado?" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGuardarObra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#00BCD4"
+        android:text="Guardar"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="8dp"
+    />
+
+</LinearLayout>
