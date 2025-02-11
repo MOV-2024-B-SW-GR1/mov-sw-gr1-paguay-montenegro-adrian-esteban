@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvFormularioTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Formulario de Artista"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNombreArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del Concesionario"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etEdadArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etNacionalidadArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicacion"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etFechaNacimientoArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fecha de registro"
+        android:inputType="datetime|date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitud 00.00"
+        android:inputType="datetime|date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etAltitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altitud 00.00"
+        android:inputType="datetime|date"
+        android:minHeight="48dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGuardarArtista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="#00BCD4"
+        android:text="Guardar"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="8dp"
+    />
+</LinearLayout>
