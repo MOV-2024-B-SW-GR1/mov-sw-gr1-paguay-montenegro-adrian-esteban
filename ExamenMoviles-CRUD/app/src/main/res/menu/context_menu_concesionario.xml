@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuVerautos"
+        android:title="Ver autos" />
+    <item
+        android:id="@+id/menuEditarconcesionario"
+        android:title="Editar concesionario" />
+    <item
+        android:id="@+id/menuEliminarconcesionario"
+        android:title="Eliminar concesionario" />
+</menu>
